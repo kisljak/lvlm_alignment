@@ -1,0 +1,12 @@
+name: lvlm_alignment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchaudio
+  - torchvision
+  - accelerate[version='>=0.26.0']
+  - pre-commit
+prefix: /opt/anaconda3/envs/lvlm_alignment
